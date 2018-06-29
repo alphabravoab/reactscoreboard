@@ -31,9 +31,9 @@ export default class Player extends PureComponent {
   }
   render() {
     return (<li className="player">
-      <Button operator= "*"onClick={this.deleteIt} />
+      <Button operator= "*" onClick={this.deleteIt} />
       <p className="name">{this.props.name}</p>
-      <Button operator= "-"onClick={this.minIt} />
+      <Button operator= "-" onClick={this.minIt} />
       <p className="score">{this.props.score}</p>
       <Button operator= "+" onClick={this.addIt} />
     </li>)
